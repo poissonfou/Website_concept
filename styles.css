@@ -65,3 +65,31 @@ h1{
     height: 10rem;
     padding-top: 2.5rem;
 }
+
+.navbar-brand i{
+   font-size: 2.5rem;
+}
+
+.middle-section{
+    background-color: rgb(223, 215, 215);
+}
+
+.middle-section img{
+    width: 80%;
+    height: 30rem;
+    margin-left: 3rem;  
+    margin-top: 1rem;
+}
+
+.middle-section p{
+    margin-left: 2rem;
+}
+
+.middle-section-row .col-12{
+    width: 30rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
