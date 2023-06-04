@@ -1,0 +1,67 @@
+
+#slider{
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+#imgs{
+    list-style: none;
+    transition: all 750ms ease;
+}
+
+#imgs img{
+    width: 30rem;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 4rem;
+    margin-left: -0.5rem;
+}
+
+@media (max-width: 1000px){
+   body{
+    background-color: aqua;
+   }
+   
+    .col-div-main{
+    width: 100%
+   }
+
+   #slider{
+    margin-left: 3rem;
+   }
+}
+
+@media (max-width: 576px){
+    body{
+        background-color: yellow;
+    }
+
+    #slider{
+        margin: 0;
+    }
+
+    #slider img{
+        width:25rem
+    }
+
+    .main-text{
+        margin-top: -10rem;   
+    }
+}
+
+.main-text{
+    margin-top: 10rem;
+}
+
+#footer i{
+    font-size: 1.5rem;
+}
+
+#footer{
+    background-color: rgb(172, 164, 164);
+    height: 10rem;
+    padding-top: 2.5rem;
+}
