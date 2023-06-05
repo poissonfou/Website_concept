@@ -37,18 +37,76 @@ h1{
 @media (max-width: 576px){
     body{
         background-color: yellow;
+        overflow-x: hidden;
+    }
+
+
+    .col-div-main{
+        width: 25rem;
     }
 
     #slider{
-        margin: 0;
+        margin-left: 2.5rem;
     }
 
     #slider img{
-        width:25rem
+        width: 35rem
     }
 
-    .main-text{
-        margin-top: -10rem;   
+    .top-content{
+        margin-top: -5rem;
+    }
+
+    .col-div-main {
+        margin-left: 2rem;
+    }
+
+    #main-desc{
+        width:25rem;
+    }
+
+    #middle-section{
+        margin-left: 2.5rem;
+        width: 24rem;
+    }
+
+    .middle-section-row{
+        width: 24rem;
+    }
+
+    #middle-box-one, #middle-box-two{
+        margin: 0;
+        width: 23rem;
+    }
+
+    #middle-box-one{
+        margin-bottom: 1rem;
+    }
+
+    #middle-box-one img, #middle-box-two img{
+        margin-left: 2.4rem;
+    }
+
+    .h2{
+        margin-left: 0.5rem;
+    }
+
+    #product-images-row-1 div{
+        width: 20rem;
+    }
+
+    #product-images-row-2 div{
+        width: 20rem;
+    }
+
+    #product-images-row-1 div img,
+    #product-images-row-2 div img{
+        margin-left: 2rem;
+    }
+
+    #product-images-row-1 div p,
+    #product-images-row-2 div p{
+        margin-left: 1rem;
     }
 }
 
