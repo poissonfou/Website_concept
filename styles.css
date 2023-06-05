@@ -93,3 +93,23 @@ h2{
     font-size: 2.5rem;
     margin-left: 2rem;
 }
+
+
+.row .col-12{
+    transition: 1s;
+}
+
+.row .col-12:hover{
+    cursor: pointer;
+    transform:translateY(-5px);
+}
+
+.hidden{
+    transform: translateY(5rem);
+    opacity: 0;
+    transition: 2s;
+}
+
+.container{
+    transition: 2s;
+}

@@ -37,3 +37,14 @@ let Slider = function () {
 window.onload = function () {
     Slider();
 }
+
+let loadText = function (){
+    let y = window.pageYOffset;
+    
+    if(y >= 1000){
+        let h2 = document.querySelector('.h2');
+        h2.classList.remove('hidden');
+    }
+}
+
+window.addEventListener('scroll', loadText);
